@@ -1,0 +1,12 @@
+spring.datasource.url=jdbc:postgresql://10.173.253.137:5432/wbsrs
+spring.datasource.username=postgres
+spring.datasource.password=postgres
+
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.hibernate.ddl-auto=update
+
+server.port=8081
+
+management.endpoints.web.exposure.include=*
+spring.application.name=EMPLOYEE-SERVICE
+eureka.instance.client.serverUrl.defaultZone=http://localhost:8761/eureka/
